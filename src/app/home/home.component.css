@@ -1,0 +1,25 @@
+button{
+    background: #262B3E 0% 0% no-repeat padding-box;
+    color: white;
+}
+
+#title1{
+    line-height: 1.5; 
+    font-weight: 500; 
+    color: #333; 
+    font: normal normal 600 30px / 50px Inter;
+    color: black;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+@media (max-width: 414px) {
+    .search button .sr-only {
+        /* Imposta il testo come nascosto solo per schermi molto piccoli */
+        display: none;
+    }
+}
+
+

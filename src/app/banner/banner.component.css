@@ -1,0 +1,32 @@
+.banner1{
+    background: #262B3E 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    opacity: 1;
+    padding: 30px 50px;
+    animation: all 2s;
+    animation-duration: 2s;
+    margin-top: 2em;
+}
+
+.testo {
+    line-height: 1.5; 
+    font-weight: 500; 
+    color: #333; 
+    font: normal normal 600 30px / 50px Inter;
+    color: white;
+}
+
+#txt1{
+   background-color: #CC5B55;
+}
+
+@media (max-width: 576px){
+    .testo {
+        font-size: 1em;
+        padding-right: 1em;
+        padding-left: 1em;
+        padding-top: 0.8em;
+        line-height: 1.5em;
+        padding-bottom: 1em;
+    }
+}

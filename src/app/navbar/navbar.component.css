@@ -1,0 +1,33 @@
+a{
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+header{
+    background: #262B3E 0% 0% no-repeat padding-box;
+    color: white;
+}
+
+@media(max-width:767px){
+    .header__menu{
+        display: none;
+    }
+}
+
+@media (min-width: 768px) {
+    .menu-panel {
+      display: none;
+    }
+  }
+
+.toggleM{
+    position: fixed; /* Posizionamento fisso rispetto al viewport */
+    top: 0;
+    left: 0;
+    width: 100vw; /* Larghezza pari alla larghezza del viewport */
+    background: #262B3E;
+    color: white;
+    padding: 50px;
+    margin-bottom: 17.2em;
+    margin-top: 5.2em;
+}
